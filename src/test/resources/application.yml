@@ -1,0 +1,45 @@
+spring:
+  jpa:
+    database: h2
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password: sa
+    driver-class-name: org.h2.Driver
+
+# CORS Allowed Origins
+cors:
+  # '*' Represents all, Should be used with caution. Use it for local development only.
+  origins: '*'
+
+# Flyway Migration
+spring.flyway:
+  enabled: false
+
+security:
+  enabled: false
+
+# Email Configuration
+spring.mail:
+  host: smtp.mailtrap.io
+  port: 2525
+  username: 64e69e1542864c
+  password: 16f96495d96517
+  properties:
+    mail.smtp:
+      auth: true
+      connectiontimeout: 5000
+      timeout: 5000
+      writetimeout: 5000
+      starttls:
+        enabled: true
+        required: true
+
+# Custom Email Configurations
+email:
+  max-retry-count: 3
+  provider:
+    java-mail:
+      from: bhavesh.shah@ekzero.com

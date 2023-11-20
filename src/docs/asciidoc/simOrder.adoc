@@ -1,0 +1,261 @@
+=== Create / Update Sim Order
+Used to create / update sim order
+
+==== Sample Curl Request
+include::{snippets}/sim-order-controller-test/create-or-update-sim-order/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-order-controller-test/create-or-update-sim-order/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-order-controller-test/create-or-update-sim-order/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-order-controller-test/create-or-update-sim-order/request-fields.adoc[]
+
+
+=== Get Sim Order
+Used to fetch sim order by simOrderId
+
+==== Sample Curl Request
+include::{snippets}/sim-order-controller-test/get-sim-order/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-order-controller-test/get-sim-order/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-order-controller-test/get-sim-order/http-response.adoc[]
+
+=== List Sim Orders
+Used to fetch sim orders
+
+==== Sample Curl Request
+include::{snippets}/sim-order-controller-test/list-sim-orders/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-order-controller-test/list-sim-orders/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-order-controller-test/list-sim-orders/http-response.adoc[]
+
+
+=== Delete Sim Order
+Used to delete sim order by simOrderId
+
+==== Sample Curl Request
+include::{snippets}/sim-order-controller-test/delete-sim-order/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-order-controller-test/delete-sim-order/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-order-controller-test/delete-sim-order/http-response.adoc[]
+
+
+
+=== Create Sim Fusion
+Used to create sim fusion
+
+==== Sample Curl Request
+include::{snippets}/sim-fusion-controller-test/create-sim-fusion/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-fusion-controller-test/create-sim-fusion/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-fusion-controller-test/create-sim-fusion/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-fusion-controller-test/create-sim-fusion/request-fields.adoc[]
+
+
+=== List Sim Fusions
+Used to fetch sim fusions
+
+==== Sample Curl Request
+include::{snippets}/sim-fusion-controller-test/list-sim-fusions/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-fusion-controller-test/list-sim-fusions//http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-fusion-controller-test/list-sim-fusions//http-response.adoc[]
+
+=== Delete Sim Fusion
+Used to delete sim Fusion by simFusionId
+
+==== Sample Curl Request
+include::{snippets}/sim-fusion-controller-test/delete-sim-fusion/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-fusion-controller-test/delete-sim-fusion/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-fusion-controller-test/delete-sim-fusion/http-response.adoc[]
+
+
+=== Update Sim Fusion
+Used to update sim fusion by simFusionId
+
+==== Sample Curl Request
+include::{snippets}/sim-fusion-controller-test/update-sim-fusion/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-fusion-controller-test/update-sim-fusion/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-fusion-controller-test/update-sim-fusion/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-fusion-controller-test/update-sim-fusion/request-fields.adoc[]
+
+
+=== Bulk Create And Update Sim Fusion
+Used to create and update sim fusion
+
+==== Sample Curl Request
+include::{snippets}/sim-fusion-controller-test/bulk-create-or-update-sim-fusion/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-fusion-controller-test/bulk-create-or-update-sim-fusion/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-fusion-controller-test/bulk-create-or-update-sim-fusion/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-fusion-controller-test/bulk-create-or-update-sim-fusion/request-fields.adoc[]
+==== Sample Path Parameter
+include::{snippets}/sim-fusion-controller-test/bulk-create-or-update-sim-fusion/path-parameters.adoc[]
+
+=== Create / Update Sim Treatment Procedure
+Used to create / update sim treatment procedure
+
+==== Sample Curl Request
+include::{snippets}/sim-treatment-procedure-controller-test/create-or-update-sim-treatment-procedure/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-treatment-procedure-controller-test/create-or-update-sim-treatment-procedure/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-treatment-procedure-controller-test/create-or-update-sim-treatment-procedure/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-treatment-procedure-controller-test/create-or-update-sim-treatment-procedure/request-fields.adoc[]
+
+
+=== Get Sim Treatment Procedure
+Used to fetch sim treatment procedure by simOrderId / simTreatmentProcedureId
+
+==== Sample Curl Request
+include::{snippets}/sim-treatment-procedure-controller-test/get-sim-treatment-procedure/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-treatment-procedure-controller-test/get-sim-treatment-procedure/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-treatment-procedure-controller-test/get-sim-treatment-procedure/http-response.adoc[]
+
+=== Delete Sim Treatment Procedure
+Used to delete sim treatment procedure by simOrderId / simTreatmentProcedureId
+
+==== Sample Curl Request
+include::{snippets}/sim-treatment-procedure-controller-test/delete-sim-treatment-procedure/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-treatment-procedure-controller-test/delete-sim-treatment-procedure/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-treatment-procedure-controller-test/delete-sim-treatment-procedure/http-response.adoc[]
+
+
+=== Create / Update Sim Medical Physics Consult
+Used to create / update sim medical Physics consult
+
+==== Sample Curl Request
+include::{snippets}/sim-medical-physics-consult-controller-test/create-or-update-sim-medical-physics-consult/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-medical-physics-consult-controller-test/create-or-update-sim-medical-physics-consult/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-medical-physics-consult-controller-test/create-or-update-sim-medical-physics-consult/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-medical-physics-consult-controller-test/create-or-update-sim-medical-physics-consult/request-fields.adoc[]
+
+
+=== Get Sim Medical Physics Consult
+Used to fetch sim medical Physics consult by simOrderId / simMedicalPhysicsConsultId
+
+==== Sample Curl Request
+include::{snippets}/sim-medical-physics-consult-controller-test/get-sim-medical-physics-consult/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-medical-physics-consult-controller-test/get-sim-medical-physics-consult/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-medical-physics-consult-controller-test/get-sim-medical-physics-consult/http-response.adoc[]
+
+=== Delete Sim Medical Physics Consult
+Used to delete sim medical Physics consult by simOrderId / simMedicalPhysicsConsultId
+
+==== Sample Curl Request
+include::{snippets}/sim-medical-physics-consult-controller-test/delete-sim-medical-physics-consult/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-medical-physics-consult-controller-test/delete-sim-medical-physics-consult/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-medical-physics-consult-controller-test/delete-sim-medical-physics-consult/http-response.adoc[]
+
+
+=== Create Sim Nursing Task
+Used to create sim nursing task
+
+==== Sample Curl Request
+include::{snippets}/sim-nursing-task-controller-test/create-sim-nursing-task/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-nursing-task-controller-test/create-sim-nursing-task/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-nursing-task-controller-test/create-sim-nursing-task/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-nursing-task-controller-test/create-sim-nursing-task/request-fields.adoc[]
+
+
+=== List Sim Nursing Tasks
+Used to fetch sim nursing tasks
+
+==== Sample Curl Request
+include::{snippets}/sim-nursing-task-controller-test/list-sim-nursing-tasks/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-nursing-task-controller-test/list-sim-nursing-tasks//http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-nursing-task-controller-test/list-sim-nursing-tasks//http-response.adoc[]
+
+=== Delete Sim Nursing Task
+Used to delete sim nursing task by simNursingTaskId
+
+==== Sample Curl Request
+include::{snippets}/sim-nursing-task-controller-test/delete-sim-nursing-task/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-nursing-task-controller-test/delete-sim-nursing-task/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-nursing-task-controller-test/delete-sim-nursing-task/http-response.adoc[]
+
+
+=== Update Sim Nursing Task
+Used to update sim nursing task by simNursingTaskId
+
+==== Sample Curl Request
+include::{snippets}/sim-nursing-task-controller-test/update-sim-nursing-task/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-nursing-task-controller-test/update-sim-nursing-task/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-nursing-task-controller-test/update-sim-nursing-task/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-nursing-task-controller-test/update-sim-nursing-task/request-fields.adoc[]
+
+
+=== Create / Update Sim Other Detail
+Used to create / update sim other detail
+
+==== Sample Curl Request
+include::{snippets}/sim-other-detail-controller-test/create-sim-other-detail/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-other-detail-controller-test/create-sim-other-detail/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-other-detail-controller-test/create-sim-other-detail/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-other-detail-controller-test/create-sim-other-detail/request-fields.adoc[]
+==== Sample Path Parameter
+include::{snippets}/sim-other-detail-controller-test/create-sim-other-detail/path-parameters.adoc[]
+
+
+=== Get Sim Other Detail
+Used to fetch sim other detail by simOrderId / simOtherDetailId
+
+==== Sample Curl Request
+include::{snippets}/sim-other-detail-controller-test/get-sim-other-detail/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-other-detail-controller-test/get-sim-other-detail/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-other-detail-controller-test/get-sim-other-detail/http-response.adoc[]
+==== Sample Path Parameter
+include::{snippets}/sim-other-detail-controller-test/get-sim-other-detail/path-parameters.adoc[]
+
+=== Delete Sim Other Detail
+Used to delete sim other detail by simOrderId / simOtherDetailId
+
+==== Sample Curl Request
+include::{snippets}/sim-other-detail-controller-test/delete-sim-other-detail/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-other-detail-controller-test/delete-sim-other-detail/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-other-detail-controller-test/delete-sim-other-detail/http-response.adoc[]
+==== Sample Path Parameter
+include::{snippets}/sim-other-detail-controller-test/delete-sim-other-detail/path-parameters.adoc[]
+

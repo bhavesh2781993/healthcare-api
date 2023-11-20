@@ -1,0 +1,562 @@
+=== Create Position
+Used to create position
+
+==== Sample Curl Request
+include::{snippets}/position-controller-test/create-position/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/position-controller-test/create-position/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/position-controller-test/create-position/http-response.adoc[]
+==== Request Headers
+include::{snippets}/position-controller-test/create-position/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/position-controller-test/create-position/request-fields.adoc[]
+
+
+=== List Positions by Position Type
+Used to fetch positions by position type
+
+==== Sample Curl Request
+include::{snippets}/position-controller-test/list-positions/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/position-controller-test/list-positions/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/position-controller-test/list-positions/http-response.adoc[]
+==== Request Headers
+include::{snippets}/position-controller-test/list-positions/request-headers.adoc[]
+==== Query Parameters
+include::{snippets}/position-controller-test/list-positions/query-parameters.adoc[]
+
+
+=== Delete Position
+Used to delete position by clinicId & positionId
+
+==== Sample Curl Request
+include::{snippets}/position-controller-test/delete-position/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/position-controller-test/delete-position/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/position-controller-test/delete-position/http-response.adoc[]
+==== Request Headers
+include::{snippets}/position-controller-test/delete-position/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/position-controller-test/delete-position/path-parameters.adoc[]
+
+
+=== Create Treatment Stage
+Used to create treatment stages
+
+==== Sample Curl Request
+include::{snippets}/treatment-stage-controller-test/create-treatment-stage/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-stage-controller-test/create-treatment-stage/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-stage-controller-test/create-treatment-stage/http-response.adoc[]
+==== Request Headers
+include::{snippets}/treatment-stage-controller-test/create-treatment-stage/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/treatment-stage-controller-test/create-treatment-stage/request-fields.adoc[]
+
+
+=== List Treatment Stages
+Used to fetch treatment stages by stage type
+
+==== Sample Curl Request
+include::{snippets}/treatment-stage-controller-test/list-treatment-stages/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-stage-controller-test/list-treatment-stages/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-stage-controller-test/list-treatment-stages/http-response.adoc[]
+==== Request Headers
+include::{snippets}/treatment-stage-controller-test/list-treatment-stages/request-headers.adoc[]
+==== Query Parameters
+include::{snippets}/treatment-stage-controller-test/list-treatment-stages/query-parameters.adoc[]
+
+
+=== Delete Treatment Stage
+Used to delete treatment Stage by clinicId & treatmentStageId
+
+==== Sample Curl Request
+include::{snippets}/treatment-stage-controller-test/delete-treatment-stage/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-stage-controller-test/delete-treatment-stage/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-stage-controller-test/delete-treatment-stage/http-response.adoc[]
+==== Request Headers
+include::{snippets}/treatment-stage-controller-test/delete-treatment-stage/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/treatment-stage-controller-test/delete-treatment-stage/path-parameters.adoc[]
+
+
+=== Create Treatment Meta
+Used to create treatment meta
+
+==== Sample Curl Request
+include::{snippets}/treatment-meta-controller-test/create-treatment-meta/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-meta-controller-test/create-treatment-meta/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-meta-controller-test/create-treatment-meta/http-response.adoc[]
+==== Request Headers
+include::{snippets}/treatment-meta-controller-test/create-treatment-meta/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/treatment-meta-controller-test/create-treatment-meta/request-fields.adoc[]
+
+
+=== List Treatment Meta
+Used to fetch treatment metas by clinicId & metaType
+
+==== Sample Curl Request
+include::{snippets}/treatment-meta-controller-test/list-treatment-metas/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-meta-controller-test/list-treatment-metas/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-meta-controller-test/list-treatment-metas/http-response.adoc[]
+==== Request Headers
+include::{snippets}/treatment-meta-controller-test/list-treatment-metas/request-headers.adoc[]
+==== Query Parameters
+include::{snippets}/treatment-meta-controller-test/list-treatment-metas/query-parameters.adoc[]
+
+
+=== Delete Treatment Meta
+Used to delete treatment meta by clinicId & treatmentMetaId
+
+==== Sample Curl Request
+include::{snippets}/treatment-meta-controller-test/delete-treatment-meta/curl-request.adoc
+==== Sample Http Request
+include::{snippets}/treatment-meta-controller-test/delete-treatment-meta/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-meta-controller-test/delete-treatment-meta/http-response.adoc[]
+==== Request Headers
+include::{snippets}/treatment-meta-controller-test/delete-treatment-meta/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/treatment-meta-controller-test/delete-treatment-meta/path-parameters.adoc[]
+
+
+=== Create Immobilization Device
+Used to create immobilization device
+
+==== Sample Curl Request
+include::{snippets}/immobilization-device-controller-test/create-immobilization-device/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/immobilization-device-controller-test/create-immobilization-device/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/immobilization-device-controller-test/create-immobilization-device/http-response.adoc[]
+==== Request Headers
+include::{snippets}/immobilization-device-controller-test/create-immobilization-device/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/immobilization-device-controller-test/create-immobilization-device/request-fields.adoc[]
+
+=== List Immobilization Devices
+Used to fetch immobilization device by clinicId
+
+==== Sample Curl Request
+include::{snippets}/immobilization-device-controller-test/list-immobilization-devices/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/immobilization-device-controller-test/list-immobilization-devices/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/immobilization-device-controller-test/list-immobilization-devices/http-response.adoc[]
+==== Request Headers
+include::{snippets}/immobilization-device-controller-test/list-immobilization-devices/request-headers.adoc[]
+
+
+=== Delete Immobilization
+Used to delete immobilization by clinicId & immobilizationDeviceId
+
+==== Sample Curl Request
+include::{snippets}/immobilization-device-controller-test/delete-immobilization-device/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/immobilization-device-controller-test/delete-immobilization-device/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/immobilization-device-controller-test/delete-immobilization-device/http-response.adoc[]
+==== Request Headers
+include::{snippets}/immobilization-device-controller-test/delete-immobilization-device/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/immobilization-device-controller-test/delete-immobilization-device/path-parameters.adoc[]
+
+
+=== Create Fusion
+Used to create fusion
+
+==== Sample Curl Request
+include::{snippets}/fusion-controller-test/create-fusion/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/fusion-controller-test/create-fusion/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/fusion-controller-test/create-fusion/http-response.adoc[]
+==== Request Headers
+include::{snippets}/fusion-controller-test/create-fusion/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/fusion-controller-test/create-fusion/request-fields.adoc[]
+
+
+=== List Fusion
+Used to fetch fusions by clinicId
+
+==== Sample Curl Request
+include::{snippets}/fusion-controller-test/list-fusions/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/fusion-controller-test/list-fusions/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/fusion-controller-test/list-fusions/http-response.adoc[]
+==== Request Headers
+include::{snippets}/fusion-controller-test/list-fusions/request-headers.adoc[]
+
+
+=== Delete Fusion
+Used to delete fusion by clinicId & fusionId
+
+==== Sample Curl Request
+include::{snippets}/fusion-controller-test/delete-fusion/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/fusion-controller-test/delete-fusion/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/fusion-controller-test/delete-fusion/http-response.adoc[]
+==== Request Headers
+include::{snippets}/fusion-controller-test/delete-fusion/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/fusion-controller-test/delete-fusion/path-parameters.adoc[]
+
+
+=== Create Imaging Type
+Used to create imaging type
+
+==== Sample Curl Request
+include::{snippets}/imaging-type-test/create-imaging-type/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/imaging-type-test/create-imaging-type/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/imaging-type-test/create-imaging-type/http-response.adoc[]
+==== Request Headers
+include::{snippets}/imaging-type-test/create-imaging-type/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/imaging-type-test/create-imaging-type/request-fields.adoc[]
+
+
+=== List Imaging Type
+Used to fetch imaging types by clinicId
+
+==== Sample Curl Request
+include::{snippets}/imaging-type-test/list-imaging-types/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/imaging-type-test/list-imaging-types/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/imaging-type-test/list-imaging-types/http-response.adoc[]
+==== Request Headers
+include::{snippets}/imaging-type-test/list-imaging-types/request-headers.adoc[]
+
+
+=== Delete Imaging Type
+Used to delete imaging type by clinicId & imagingTypeId
+
+==== Sample Curl Request
+include::{snippets}/imaging-type-test/delete-imaging-type/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/imaging-type-test/delete-imaging-type/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/imaging-type-test/delete-imaging-type/http-response.adoc[]
+==== Request Headers
+include::{snippets}/imaging-type-test/delete-imaging-type/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/imaging-type-test/delete-imaging-type/path-parameters.adoc[]
+
+
+=== Create Imaging Alignment
+Used to create imaging alignment
+
+==== Sample Curl Request
+include::{snippets}/imaging-alignment-controller-test/create-imaging-alignment/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/imaging-alignment-controller-test/create-imaging-alignment/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/imaging-alignment-controller-test/create-imaging-alignment/http-response.adoc[]
+==== Request Headers
+include::{snippets}/imaging-alignment-controller-test/create-imaging-alignment/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/imaging-alignment-controller-test/create-imaging-alignment/request-fields.adoc[]
+
+
+=== List Imaging Alignment
+Used to fetch imaging alignments by clinicId
+
+==== Sample Curl Request
+include::{snippets}/imaging-alignment-controller-test/list-imaging-alignments/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/imaging-alignment-controller-test/list-imaging-alignments/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/imaging-alignment-controller-test/list-imaging-alignments/http-response.adoc[]
+==== Request Headers
+include::{snippets}/imaging-alignment-controller-test/list-imaging-alignments/request-headers.adoc[]
+
+
+=== Delete Imaging Alignment
+Used to delete imaging alignment by clinicId & imagingAlignmentId
+
+==== Sample Curl Request
+include::{snippets}/imaging-alignment-controller-test/delete-imaging-alignment/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/imaging-alignment-controller-test/delete-imaging-alignment/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/imaging-alignment-controller-test/delete-imaging-alignment/http-response.adoc[]
+==== Request Headers
+include::{snippets}/imaging-alignment-controller-test/delete-imaging-alignment/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/imaging-alignment-controller-test/delete-imaging-alignment/path-parameters.adoc[]
+
+
+
+=== Create Instruction
+Used to create instruction
+
+==== Sample Curl Request
+include::{snippets}/instruction-controller-test/create-instruction/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/instruction-controller-test/create-instruction/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/instruction-controller-test/create-instruction/http-response.adoc[]
+==== Request Headers
+include::{snippets}/instruction-controller-test/create-instruction/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/instruction-controller-test/create-instruction/request-fields.adoc[]
+
+
+=== List Instruction
+Used to fetch instructions by clinicId
+
+==== Sample Curl Request
+include::{snippets}/instruction-controller-test/list-instructions/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/instruction-controller-test/list-instructions/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/instruction-controller-test/list-instructions/http-response.adoc[]
+==== Request Headers
+include::{snippets}/instruction-controller-test/list-instructions/request-headers.adoc[]
+
+
+=== Delete Instruction
+Used to delete instruction  by clinicId & instructionId
+
+==== Sample Curl Request
+include::{snippets}/instruction-controller-test/delete-instruction/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/instruction-controller-test/delete-instruction/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/instruction-controller-test/delete-instruction/http-response.adoc[]
+==== Request Headers
+include::{snippets}/instruction-controller-test/delete-instruction/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/instruction-controller-test/delete-instruction/path-parameters.adoc[]
+
+
+=== Create Medical Physics Consult
+Used to create medical physics consult
+
+==== Sample Curl Request
+include::{snippets}/medical-physics-consult-controller-test/create-medical-physics-consult/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/medical-physics-consult-controller-test/create-medical-physics-consult/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/medical-physics-consult-controller-test/create-medical-physics-consult/http-response.adoc[]
+==== Request Headers
+include::{snippets}/medical-physics-consult-controller-test/create-medical-physics-consult/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/medical-physics-consult-controller-test/create-medical-physics-consult/request-fields.adoc[]
+
+
+=== List Medical Physics Consults
+Used to fetch medical physics consults by clinicId
+
+==== Sample Curl Request
+include::{snippets}/medical-physics-consult-controller-test/list-medical-physics-consults/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/medical-physics-consult-controller-test/list-medical-physics-consults/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/medical-physics-consult-controller-test/list-medical-physics-consults/http-response.adoc[]
+==== Request Headers
+include::{snippets}/medical-physics-consult-controller-test/list-medical-physics-consults/request-headers.adoc[]
+
+
+=== Delete Medical Physics Consult
+Used to delete medical physics consult by clinicId & medicalPhysicsConsultId
+
+==== Sample Curl Request
+include::{snippets}/medical-physics-consult-controller-test/delete-medical-physics-consult/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/medical-physics-consult-controller-test/delete-medical-physics-consult/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/medical-physics-consult-controller-test/delete-medical-physics-consult/http-response.adoc[]
+==== Request Headers
+include::{snippets}/medical-physics-consult-controller-test/delete-medical-physics-consult/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/medical-physics-consult-controller-test/delete-medical-physics-consult/path-parameters.adoc[]
+
+
+=== Create Treatment Procedure
+Used to create treatment procedure
+
+==== Sample Curl Request
+include::{snippets}/treatment-procedure-controller-test/create-treatment-procedure/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-procedure-controller-test/create-treatment-procedure/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-procedure-controller-test/create-treatment-procedure/http-response.adoc[]
+==== Request Headers
+include::{snippets}/treatment-procedure-controller-test/create-treatment-procedure/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/treatment-procedure-controller-test/create-treatment-procedure/request-fields.adoc[]
+
+
+=== List Treatment Procedures
+Used to fetch treatment procedures by clinicId
+
+==== Sample Curl Request
+include::{snippets}/treatment-procedure-controller-test/list-treatment-procedures/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-procedure-controller-test/list-treatment-procedures/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-procedure-controller-test/list-treatment-procedures/http-response.adoc[]
+==== Request Headers
+include::{snippets}/treatment-procedure-controller-test/list-treatment-procedures/request-headers.adoc[]
+
+
+=== Delete Treatment Procedure
+Used to delete treatment procedure by clinicId & treatmentProcedureId
+
+==== Sample Curl Request
+include::{snippets}/treatment-procedure-controller-test/delete-treatment-procedure/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-procedure-controller-test/delete-treatment-procedure/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-procedure-controller-test/delete-treatment-procedure/http-response.adoc[]
+==== Request Headers
+include::{snippets}/treatment-procedure-controller-test/delete-treatment-procedure/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/treatment-procedure-controller-test/delete-treatment-procedure/path-parameters.adoc[]
+
+
+=== Create Concurrent Chemotherapy
+Used to create concurrent chemotherapy
+
+==== Sample Curl Request
+include::{snippets}/concurrent-chemotherapy-controller-test/create-concurrent-chemotherapy/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/concurrent-chemotherapy-controller-test/create-concurrent-chemotherapy/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/concurrent-chemotherapy-controller-test/create-concurrent-chemotherapy/http-response.adoc[]
+==== Request Headers
+include::{snippets}/concurrent-chemotherapy-controller-test/create-concurrent-chemotherapy/request-headers.adoc[]
+
+
+
+=== List Concurrent Chemotherapy
+Used to fetch concurrent chemotherapy by clinicId
+
+==== Sample Curl Request
+include::{snippets}/concurrent-chemotherapy-controller-test/list-concurrent-chemotherapy/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/concurrent-chemotherapy-controller-test/list-concurrent-chemotherapy/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/concurrent-chemotherapy-controller-test/list-concurrent-chemotherapy/http-response.adoc[]
+==== Request Headers
+include::{snippets}/concurrent-chemotherapy-controller-test/list-concurrent-chemotherapy/request-headers.adoc[]
+
+
+=== Delete Concurrent Chemotherapy
+Used to delete concurrent chemotherapy by clinicId & concurrentChemotherapyId
+
+==== Sample Curl Request
+include::{snippets}/concurrent-chemotherapy-controller-test/delete-concurrent-chemotherapy/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/concurrent-chemotherapy-controller-test/delete-concurrent-chemotherapy/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/concurrent-chemotherapy-controller-test/delete-concurrent-chemotherapy/http-response.adoc[]
+==== Request Headers
+include::{snippets}/concurrent-chemotherapy-controller-test/delete-concurrent-chemotherapy/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/concurrent-chemotherapy-controller-test/delete-concurrent-chemotherapy/path-parameters.adoc[]
+
+
+=== Create Energy
+Used to create energy
+
+==== Sample Curl Request
+include::{snippets}/energy-controller-test/create-energy/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/energy-controller-test/create-energy/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/energy-controller-test/create-energy/http-response.adoc[]
+==== Request Headers
+include::{snippets}/energy-controller-test/create-energy/request-headers.adoc[]
+
+
+
+=== List Energies
+Used to fetch energies by clinicId
+
+==== Sample Curl Request
+include::{snippets}/energy-controller-test/list-energy/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/energy-controller-test/list-energy/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/energy-controller-test/list-energy/http-response.adoc[]
+==== Request Headers
+include::{snippets}/energy-controller-test/list-energy/request-headers.adoc[]
+
+
+=== Delete Energy
+Used to delete energy by clinicId & energyId
+
+==== Sample Curl Request
+include::{snippets}/energy-controller-test/delete-energy/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/energy-controller-test/delete-energy/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/energy-controller-test/delete-energy/http-response.adoc[]
+==== Request Headers
+include::{snippets}/energy-controller-test/delete-energy/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/energy-controller-test/delete-energy/path-parameters.adoc[]
+
+
+=== Create Frequency
+Used to create frequency
+
+==== Sample Curl Request
+include::{snippets}/frequency-controller-test/create-frequency/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/frequency-controller-test/create-frequency/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/frequency-controller-test/create-frequency/response-body.adoc[]
+==== Request Headers
+include::{snippets}/frequency-controller-test/create-frequency/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/frequency-controller-test/create-frequency/request-fields.adoc[]
+
+
+=== List Frequencies
+Used to fetch frequencies by clinicId
+
+==== Sample Curl Request
+include::{snippets}/frequency-controller-test/list-frequency/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/frequency-controller-test/list-frequency/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/frequency-controller-test/list-frequency/http-response.adoc[]
+==== Request Headers
+include::{snippets}/frequency-controller-test/list-frequency/request-headers.adoc[]
+
+
+=== Delete Frequency
+Used to delete frequency by clinicId & frequencyId
+
+==== Sample Curl Request
+include::{snippets}/frequency-controller-test/delete-frequency/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/frequency-controller-test/delete-frequency/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/frequency-controller-test/delete-frequency/http-response.adoc[]
+==== Request Headers
+include::{snippets}/frequency-controller-test/delete-frequency/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/frequency-controller-test/delete-frequency/path-parameters.adoc[]
+

@@ -1,0 +1,53 @@
+=== Create Sim Template
+Used to create sim template
+
+==== Sample Curl Request
+include::{snippets}/sim-template-controller-test/create-sim-template/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-template-controller-test/create-sim-template/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-template-controller-test/create-sim-template/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-template-controller-test/create-sim-template/request-fields.adoc[]
+==== Request Headers
+include::{snippets}/sim-template-controller-test/create-sim-template/request-headers.adoc[]
+
+
+=== List Sim Templates
+Used to fetch sim templates
+
+==== Sample Curl Request
+include::{snippets}/sim-nursing-task-controller-test/list-sim-nursing-tasks/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-nursing-task-controller-test/list-sim-nursing-tasks//http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-nursing-task-controller-test/list-sim-nursing-tasks//http-response.adoc[]
+
+=== Delete Sim Template
+Used to delete sim template by simTemplateId
+
+==== Sample Curl Request
+include::{snippets}/sim-template-controller-test/delete-sim-template/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-template-controller-test/delete-sim-template/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-template-controller-test/delete-sim-template/http-response.adoc[]
+==== Request Headers
+include::{snippets}/sim-template-controller-test/delete-sim-template/request-headers.adoc[]
+==== Path Parameters
+include::{snippets}/sim-template-controller-test/delete-sim-template/path-parameters.adoc[]
+
+
+=== Update Sim Template
+Used to update sim template by simTemplateId
+
+==== Sample Curl Request
+include::{snippets}/sim-template-controller-test/update-sim-template/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/sim-template-controller-test/update-sim-template/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/sim-template-controller-test/update-sim-template/http-response.adoc[]
+==== Request Fields
+include::{snippets}/sim-template-controller-test/update-sim-template/request-fields.adoc[]
+==== Path Parameters
+include::{snippets}/sim-template-controller-test/delete-sim-template/path-parameters.adoc[]

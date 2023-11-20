@@ -1,0 +1,917 @@
+=== Create patient
+Used to create patient
+
+==== Sample Curl Request
+include::{snippets}/patient-controller-test/create-patient/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-controller-test/create-patient/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-controller-test/create-patient/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-controller-test/create-patient/request-fields.adoc[]
+
+=== Update patient
+Used to update patient
+
+==== Sample Curl Request
+include::{snippets}/patient-controller-test/update-patient/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-controller-test/update-patient/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-controller-test/update-patient/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-controller-test/update-patient/request-fields.adoc[]
+
+
+=== List patients
+Used to fetch patients
+
+==== Sample Curl Request
+include::{snippets}/patient-controller-test/list-patients/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-controller-test/list-patients/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-controller-test/list-patients/http-response.adoc[]
+==== Query Parameters
+include::{snippets}/patient-controller-test/list-patients/query-parameters.adoc[]
+
+
+=== Get patient
+Used to fetch patient by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-controller-test/get-patient-details/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-controller-test/get-patient-details/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-controller-test/get-patient-details/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-controller-test/get-patient-details/path-parameters.adoc[]
+
+
+=== Delete patient
+Used to delete patient by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-controller-test/delete-patient/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-controller-test/delete-patient/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-controller-test/delete-patient/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-controller-test/delete-patient/path-parameters.adoc[]
+
+
+=== Create patient Tracker
+Used to create patient Tracker
+
+==== Sample Curl Request
+include::{snippets}/patient-tracker-controller-test/create-patient-tracker/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-tracker-controller-test/create-patient-tracker/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-tracker-controller-test/create-patient-tracker/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-tracker-controller-test/create-patient-tracker/request-fields.adoc[]
+
+
+=== List patient Trackers
+Used to fetch patient Trackers
+
+==== Sample Curl Request
+include::{snippets}/patient-tracker-controller-test/list-patient-trackers/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-tracker-controller-test/list-patient-trackers/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-tracker-controller-test/list-patient-trackers/http-response.adoc[]
+==== Query Parameters
+include::{snippets}/patient-tracker-controller-test/list-patient-trackers/query-parameters.adoc[]
+
+
+=== Get patient Tracker
+Used to fetch patient Tracker by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-tracker-controller-test/get-patient-tracker/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-tracker-controller-test/get-patient-tracker/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-tracker-controller-test/get-patient-tracker/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-tracker-controller-test/get-patient-tracker/path-parameters.adoc[]
+
+
+=== Delete patient Tracker
+Used to delete patient Tracker by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-tracker-controller-test/delete-patient-tracker/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-tracker-controller-test/delete-patient-tracker/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-tracker-controller-test/delete-patient-tracker/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-tracker-controller-test/delete-patient-tracker/path-parameters.adoc[]
+
+
+=== Create patient Tracker Step
+Used to create patient Tracker Step
+
+==== Sample Curl Request
+include::{snippets}/patient-tracker-step-controller-test/create-patient-tracker-step/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-tracker-step-controller-test/create-patient-tracker-step/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-tracker-step-controller-test/create-patient-tracker-step/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-tracker-step-controller-test/create-patient-tracker-step/request-fields.adoc[]
+
+
+=== Get patient Tracker Step
+Used to fetch patient Tracker Step by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-tracker-step-controller-test/get-patient-tracker-step/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-tracker-step-controller-test/get-patient-tracker-step/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-tracker-step-controller-test/get-patient-tracker-step/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-tracker-step-controller-test/get-patient-tracker-step/path-parameters.adoc[]
+
+
+=== Delete patient Tracker Step
+Used to delete patient Tracker Step by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-tracker-step-controller-test/delete-patient-tracker-step/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-tracker-step-controller-test/delete-patient-tracker-step/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-tracker-step-controller-test/delete-patient-tracker-step/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-tracker-step-controller-test/delete-patient-tracker-step/path-parameters.adoc[]
+
+
+=== List Patient Imaging Infos
+Used to fetch patient imaging infos
+
+==== Sample Curl Request
+include::{snippets}/patient-imaging-info-controller-test/list-patient-imaging-info/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-imaging-info-controller-test/list-patient-imaging-info/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-imaging-info-controller-test/list-patient-imaging-info/http-response.adoc[]
+
+
+=== Delete Patient Imaging Info
+Used to delete patient imaging info by patientImagingInfoId
+
+==== Sample Curl Request
+include::{snippets}/patient-imaging-info-controller-test/delete-patient-imaging-info/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-imaging-info-controller-test/delete-patient-imaging-info/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-imaging-info-controller-test/delete-patient-imaging-info/http-response.adoc[]
+
+
+=== Create / Update Patient Ancillary Care
+Used to create / update Patient Ancillary Care
+
+==== Sample Curl Request
+include::{snippets}/patient-ancillary-care-controller-test/create-or-update-patient-ancillary-care/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-ancillary-care-controller-test/create-or-update-patient-ancillary-care/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-ancillary-care-controller-test/create-or-update-patient-ancillary-care/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-ancillary-care-controller-test/create-or-update-patient-ancillary-care/request-fields.adoc[]
+
+
+=== Get Patient Ancillary Care
+Used to fetch Patient Ancillary Care by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-ancillary-care-controller-test/get-patient-ancillary-care/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-ancillary-care-controller-test/get-patient-ancillary-care/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-ancillary-care-controller-test/get-patient-ancillary-care/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-ancillary-care-controller-test/get-patient-ancillary-care/path-parameters.adoc[]
+
+
+=== Get Patient Ancillary Care By Patient Tracker Id
+Used to fetch Patient Ancillary Care by Patient Tracker ID
+
+==== Sample Curl Request
+include::{snippets}/patient-ancillary-care-controller-test/get-patient-ancillary-care/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-ancillary-care-controller-test/get-patient-ancillary-care/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-ancillary-care-controller-test/get-patient-ancillary-care/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-ancillary-care-controller-test/get-patient-ancillary-care/path-parameters.adoc[]
+
+
+=== Delete Patient Ancillary Care
+Used to delete Patient Ancillary Care by Patient Tracker ID
+
+==== Sample Curl Request
+include::{snippets}/patient-ancillary-care-controller-test/delete-patient-ancillary-care/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-ancillary-care-controller-test/delete-patient-ancillary-care/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-ancillary-care-controller-test/delete-patient-ancillary-care/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-ancillary-care-controller-test/delete-patient-ancillary-care/path-parameters.adoc[]
+
+
+=== Create or Update EOT Note
+Used to create or update EOT Note
+
+==== Sample Curl Request
+include::{snippets}/eot-note-controller-test/create-or-update-eot-note/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/eot-note-controller-test/create-or-update-eot-note/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/eot-note-controller-test/create-or-update-eot-note/http-response.adoc[]
+==== Request Fields
+include::{snippets}/eot-note-controller-test/create-or-update-eot-note/request-fields.adoc[]
+
+
+=== Get EOT Note
+Used to fetch EOT Note
+
+==== Sample Curl Request
+include::{snippets}/eot-note-controller-test/get-eot-note/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/eot-note-controller-test/get-eot-note/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/eot-note-controller-test/get-eot-note/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/eot-note-controller-test/get-eot-note/path-parameters.adoc[]
+
+
+=== Create or Update Followup Study
+Used to create or update Followup Study
+
+==== Sample Curl Request
+include::{snippets}/followup-study-controller-test/create-or-update-followup-study/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/followup-study-controller-test/create-or-update-followup-study/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/followup-study-controller-test/create-or-update-followup-study/http-response.adoc[]
+==== Request Fields
+include::{snippets}/followup-study-controller-test/create-or-update-followup-study/request-fields.adoc[]
+
+
+=== Get Followup Study By Patient Tracker Id
+Used to fetch Followup Study by Patient Tracker ID
+
+==== Sample Curl Request
+include::{snippets}/followup-study-controller-test/get-followup-study-by-patient-tracker-id/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/followup-study-controller-test/get-followup-study-by-patient-tracker-id/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/followup-study-controller-test/get-followup-study-by-patient-tracker-id/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/followup-study-controller-test/get-followup-study-by-patient-tracker-id/path-parameters.adoc[]
+
+
+=== Delete Followup Study
+Used to delete Followup Study
+
+==== Sample Curl Request
+include::{snippets}/followup-study-controller-test/delete-followup-study/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/followup-study-controller-test/delete-followup-study/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/followup-study-controller-test/delete-followup-study/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/followup-study-controller-test/delete-followup-study/path-parameters.adoc[]
+
+
+=== Create or Update Followup Study
+Used to create or update Followup Plan
+
+==== Sample Curl Request
+include::{snippets}/followup-plan-controller-test/create-or-update-followup-plan/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/followup-plan-controller-test/create-or-update-followup-plan/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/followup-plan-controller-test/create-or-update-followup-plan/http-response.adoc[]
+==== Request Fields
+include::{snippets}/followup-plan-controller-test/create-or-update-followup-plan/request-fields.adoc[]
+
+
+=== Get Followup Plan By Patient Tracker ID
+Used to fetch Followup Plan by Patient Tracker ID
+
+==== Sample Curl Request
+include::{snippets}/followup-plan-controller-test/get-followup-plan-by-patient-tracker-id/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/followup-plan-controller-test/get-followup-plan-by-patient-tracker-id/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/followup-plan-controller-test/get-followup-plan-by-patient-tracker-id/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/followup-plan-controller-test/get-followup-plan-by-patient-tracker-id/path-parameters.adoc[]
+
+
+=== Delete Followup Plan
+Used to delete Followup Plan
+
+==== Sample Curl Request
+include::{snippets}/followup-plan-controller-test/delete-followup-plan/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/followup-plan-controller-test/delete-followup-plan/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/followup-plan-controller-test/delete-followup-plan/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/followup-plan-controller-test/delete-followup-plan/path-parameters.adoc[]
+
+
+=== Create Patient Appointment
+Used to create patient appointment
+
+==== Sample Curl Request
+include::{snippets}/patient-appointment-controller-test/create-patient-appointment/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-appointment-controller-test/create-patient-appointment/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-appointment-controller-test/create-patient-appointment/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-appointment-controller-test/create-patient-appointment/request-fields.adoc[]
+
+=== Update Patient Appointment
+Used to update patient appointment
+
+==== Sample Curl Request
+include::{snippets}/patient-appointment-controller-test/update-patient-appointment/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-appointment-controller-test/update-patient-appointment/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-appointment-controller-test/update-patient-appointment/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-appointment-controller-test/update-patient-appointment/request-fields.adoc[]
+
+
+=== List Patient Appointments
+Used to fetch patient appointments
+
+==== Sample Curl Request
+include::{snippets}/patient-appointment-controller-test/list-patient-appointments/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-appointment-controller-test/list-patient-appointments/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-appointment-controller-test/list-patient-appointments/http-response.adoc[]
+==== Query Parameters
+include::{snippets}/patient-appointment-controller-test/list-patient-appointments/query-parameters.adoc[]
+
+
+=== Get Patient Appointment
+Used to fetch patient appointment by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-appointment-controller-test/get-patient-appointment/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-appointment-controller-test/get-patient-appointment/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-appointment-controller-test/get-patient-appointment/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-appointment-controller-test/get-patient-appointment/path-parameters.adoc[]
+
+
+=== Delete Patient Appointment
+Used to delete patient appointment by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-appointment-controller-test/delete-patient-appointment/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-appointment-controller-test/delete-patient-appointment/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-appointment-controller-test/delete-patient-appointment/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-appointment-controller-test/delete-patient-appointment/path-parameters.adoc[]
+
+
+
+=== Update Patient Chart
+Used to update Patient Chart
+
+==== Sample Curl Request
+include::{snippets}/patient-chart-controller-test/update-patient-chart/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-chart-controller-test/update-patient-chart/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-chart-controller-test/update-patient-chart/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-chart-controller-test/update-patient-chart/request-fields.adoc[]
+
+
+=== Get Patient Chart By Patient Tracker ID
+Used to fetch Patient Chart by Patient Tracker ID
+
+==== Sample Curl Request
+include::{snippets}/patient-chart-controller-test/get-patient-chart/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-chart-controller-test/get-patient-chart/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-chart-controller-test/get-patient-chart/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-chart-controller-test/get-patient-chart/path-parameters.adoc[]
+
+
+=== Delete Patient Chart
+Used to delete Patient Chart
+
+==== Sample Curl Request
+include::{snippets}/patient-chart-controller-test/delete-patient-chart/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-chart-controller-test/delete-patient-chart/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-chart-controller-test/delete-patient-chart/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-chart-controller-test/delete-patient-chart/path-parameters.adoc[]
+
+
+
+=== Create Patient Lab
+Used to create patient lab
+
+==== Sample Curl Request
+include::{snippets}/patient-lab-controller-test/create-patient-lab/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-lab-controller-test/create-patient-lab/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-lab-controller-test/create-patient-lab/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-lab-controller-test/create-patient-lab/request-fields.adoc[]
+
+
+=== List Patient Labs
+Used to fetch patient labs by patientTrackerId
+
+==== Sample Curl Request
+include::{snippets}/patient-lab-controller-test/list-patient-labs/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-lab-controller-test/list-patient-labs/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-lab-controller-test/list-patient-labs/http-response.adoc[]
+
+
+=== Delete Patient Lab
+Used to delete patient lab by patientLabId
+
+==== Sample Curl Request
+include::{snippets}/patient-lab-controller-test/delete-patient-lab/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-lab-controller-test/delete-patient-lab/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-lab-controller-test/delete-patient-lab/http-response.adoc[]
+
+
+=== Update Patient Lab
+Used to update patient lab by patientLabId
+
+==== Sample Curl Request
+include::{snippets}/patient-lab-controller-test/update-patient-lab/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-lab-controller-test/update-patient-lab/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-lab-controller-test/update-patient-lab/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-lab-controller-test/update-patient-lab/request-fields.adoc[]
+
+
+
+
+=== Create Patient Note
+Used to create or update patient note
+
+==== Sample Curl Request
+include::{snippets}/patient-note-controller-test/create-patient-note/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-note-controller-test/create-patient-note/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-note-controller-test/create-patient-note/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-note-controller-test/create-patient-note/request-fields.adoc[]
+
+
+=== List Patient Notes
+Used to fetch patient notes
+
+==== Sample Curl Request
+include::{snippets}/patient-note-controller-test/list-patient-notes/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-note-controller-test/list-patient-notes/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-note-controller-test/list-patient-notes/http-response.adoc[]
+
+
+=== Delete Patient Note
+Used to delete patient note by patientNoteId
+
+==== Sample Curl Request
+include::{snippets}/patient-note-controller-test/delete-patient-note/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-note-controller-test/delete-patient-note/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-note-controller-test/delete-patient-note/http-response.adoc[]
+
+
+
+=== Create or Update Patient Oncology Summary
+Used to create or update Patient Oncology Summary
+
+==== Sample Curl Request
+include::{snippets}/patient-oncology-summary-controller-test/create-or-update-patient-oncology-summary/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-oncology-summary-controller-test/create-or-update-patient-oncology-summary/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-oncology-summary-controller-test/create-or-update-patient-oncology-summary/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-oncology-summary-controller-test/create-or-update-patient-oncology-summary/request-fields.adoc[]
+
+
+=== Get Patient Oncology Summary By Patient Tracker Id
+Used to fetch Patient Oncology Summary by Patient Tracker ID
+
+==== Sample Curl Request
+include::{snippets}/patient-oncology-summary-controller-test/get-patient-oncology-summary/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-oncology-summary-controller-test/get-patient-oncology-summary/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-oncology-summary-controller-test/get-patient-oncology-summary/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-oncology-summary-controller-test/get-patient-oncology-summary/path-parameters.adoc[]
+
+
+=== Delete Patient Oncology Summary
+Used to delete Patient Oncology Summary
+
+==== Sample Curl Request
+include::{snippets}/patient-oncology-summary-controller-test/delete-patient-oncology-summary/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-oncology-summary-controller-test/delete-patient-oncology-summary/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-oncology-summary-controller-test/delete-patient-oncology-summary/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-oncology-summary-controller-test/delete-patient-oncology-summary/path-parameters.adoc[]
+
+
+=== Create Patient Treatment Goal
+Used to create Treatment Goal
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-goal-controller-test/create-patient-treatment-goal/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-goal-controller-test/create-patient-treatment-goal/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-goal-controller-test/create-patient-treatment-goal/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-treatment-goal-controller-test/create-patient-treatment-goal/request-fields.adoc[]
+
+
+=== List Patient Treatment Goals
+Used to fetch patient Treatment Goal by patientTrackerId
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-goal-controller-test/list-patient-treatment-goals/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-goal-controller-test/list-patient-treatment-goals/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-goal-controller-test/list-patient-treatment-goals/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-treatment-goal-controller-test/list-patient-treatment-goals/path-parameters.adoc[]
+
+
+=== Delete Patient Treatment Goal
+Used to delete patient Treatment Goal by patientTreatmentGoalId
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-goal-controller-test/delete-patient-treatment-goal/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-goal-controller-test/delete-patient-treatment-goal/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-goal-controller-test/delete-patient-treatment-goal/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-treatment-goal-controller-test/delete-patient-treatment-goal/path-parameters.adoc[]
+
+
+=== Update Patient Treatment Goal
+Used to update patient Treatment Goal by patientTreatmentGoalId
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-goal-controller-test/update-patient-treatment-goal/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-goal-controller-test/update-patient-treatment-goal/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-goal-controller-test/update-patient-treatment-goal/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-treatment-goal-controller-test/update-patient-treatment-goal/request-fields.adoc[]
+==== Path Parameters
+include::{snippets}/patient-treatment-goal-controller-test/update-patient-treatment-goal/path-parameters.adoc[]
+
+
+=== Create Patient Prescription
+Used to create Patient Prescription
+
+==== Sample Curl Request
+include::{snippets}/patient-prescription-controller-test/create-patient-prescription/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-prescription-controller-test/create-patient-prescription/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-prescription-controller-test/create-patient-prescription/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-prescription-controller-test/create-patient-prescription/request-fields.adoc[]
+
+
+=== List Patient Prescriptions
+Used to fetch Patient Prescriptions by patientTreatmentInfoId
+
+==== Sample Curl Request
+include::{snippets}/patient-prescription-controller-test/list-patient-prescriptions/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-prescription-controller-test/list-patient-prescriptions/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-prescription-controller-test/list-patient-prescriptions/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-prescription-controller-test/list-patient-prescriptions/path-parameters.adoc[]
+
+
+=== Delete Patient Prescription
+Used to delete Patient Prescription by patientPrescriptionId
+
+==== Sample Curl Request
+include::{snippets}/patient-prescription-controller-test/delete-patient-prescription/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-prescription-controller-test/delete-patient-prescription/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-prescription-controller-test/delete-patient-prescription/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-prescription-controller-test/delete-patient-prescription/path-parameters.adoc[]
+
+
+=== Update Patient Prescription
+Used to update Patient Prescription by patientPrescriptionId
+
+==== Sample Curl Request
+include::{snippets}/patient-prescription-controller-test/update-patient-prescription/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-prescription-controller-test/update-patient-prescription/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-prescription-controller-test/update-patient-prescription/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-prescription-controller-test/update-patient-prescription/request-fields.adoc[]
+==== Path Parameters
+include::{snippets}/patient-prescription-controller-test/update-patient-prescription/path-parameters.adoc[]
+
+=== Create Patient Treatment Info
+Used to create Patient Treatment Info
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-info-controller-test/create-patient-treatment-info/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-info-controller-test/create-patient-treatment-info/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-info-controller-test/create-patient-treatment-info/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-treatment-info-controller-test/create-patient-treatment-info/request-fields.adoc[]
+
+=== Update Patient Treatment Info
+Used to update Patient Treatment Info
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-info-controller-test/update-patient-treatment-info/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-info-controller-test/update-patient-treatment-info/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-info-controller-test/update-patient-treatment-info/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-treatment-info-controller-test/update-patient-treatment-info/request-fields.adoc[]
+
+
+=== List Patient Treatment Info
+Used to fetch Patient Treatment Info by patientTrackerId
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-info-controller-test/list-patient-treatment-info/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-info-controller-test/list-patient-treatment-info/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-info-controller-test/list-patient-treatment-info/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-treatment-info-controller-test/list-patient-treatment-info/path-parameters.adoc[]
+
+
+=== Get Patient Treatment Info
+Used to fetch Patient Treatment Info by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-info-controller-test/get-patient-treatment-info/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-info-controller-test/get-patient-treatment-info/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-info-controller-test/get-patient-treatment-info/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-treatment-info-controller-test/get-patient-treatment-info/path-parameters.adoc[]
+
+
+=== Delete Patient Treatment Info
+Used to delete Treatment Info by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-info-controller-test/delete-patient-treatment-info/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-info-controller-test/delete-patient-treatment-info/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-info-controller-test/delete-patient-treatment-info/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-treatment-info-controller-test/delete-patient-treatment-info/path-parameters.adoc[]
+
+
+=== Bulk Create Patient Treatment Stage
+Used to create Patient Treatment Stage
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-stage-controller-test/bulk-create-patient-treatment-stage/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-stage-controller-test/bulk-create-patient-treatment-stage/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-stage-controller-test/bulk-create-patient-treatment-stage/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-treatment-stage-controller-test/bulk-create-patient-treatment-stage/request-fields.adoc[]
+==== Path Parameters
+include::{snippets}/patient-treatment-stage-controller-test/bulk-create-patient-treatment-stage/path-parameters.adoc[]
+
+=== Bulk Update Patient Treatment Stage
+Used to update Patient Treatment Stage
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-stage-controller-test/bulk-update-patient-treatment-stage/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-stage-controller-test/bulk-update-patient-treatment-stage/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-stage-controller-test/bulk-update-patient-treatment-stage/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-treatment-stage-controller-test/bulk-update-patient-treatment-stage/request-fields.adoc[]
+==== Path Parameters
+include::{snippets}/patient-treatment-stage-controller-test/bulk-update-patient-treatment-stage/path-parameters.adoc[]
+
+=== List Patient Treatment Stages
+Used to fetch Patient Treatment Stage by patientTrackerId
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-stage-controller-test/list-patient-treatment-stages/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-stage-controller-test/list-patient-treatment-stages/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-stage-controller-test/list-patient-treatment-stages/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-treatment-stage-controller-test/list-patient-treatment-stages/path-parameters.adoc[]
+
+
+=== Delete Patient Treatment Stage
+Used to delete Treatment Stage by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-treatment-stage-controller-test/delete-patient-treatment-stage/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-treatment-stage-controller-test/delete-patient-treatment-stage/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-treatment-stage-controller-test/delete-patient-treatment-stage/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-treatment-stage-controller-test/delete-patient-treatment-stage/path-parameters.adoc[]
+
+
+=== Create Patient Vitals Sign
+Used to create Patient Vitals Sign
+
+==== Sample Curl Request
+include::{snippets}/patient-vitals-sign-controller-test/create-patient-vitals-sign/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-vitals-sign-controller-test/create-patient-vitals-sign/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-vitals-sign-controller-test/create-patient-vitals-sign/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-vitals-sign-controller-test/create-patient-vitals-sign/request-fields.adoc[]
+
+=== Update Patient Vitals Sign
+Used to update Patient Vitals Sign
+
+==== Sample Curl Request
+include::{snippets}/patient-vitals-sign-controller-test/update-patient-vitals-sign/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-vitals-sign-controller-test/update-patient-vitals-sign/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-vitals-sign-controller-test/update-patient-vitals-sign/http-response.adoc[]
+==== Request Fields
+include::{snippets}/patient-vitals-sign-controller-test/update-patient-vitals-sign/request-fields.adoc[]
+==== Path Parameters
+include::{snippets}/patient-vitals-sign-controller-test/update-patient-vitals-sign/path-parameters.adoc[]
+
+
+=== List Patient Vitals Sign
+Used to fetch Patient Vitals Sign by patientTrackerId
+
+==== Sample Curl Request
+include::{snippets}/patient-vitals-sign-controller-test/list-patient-vitals-signs/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-vitals-sign-controller-test/list-patient-vitals-signs/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-vitals-sign-controller-test/list-patient-vitals-signs/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-vitals-sign-controller-test/list-patient-vitals-signs/path-parameters.adoc[]
+
+
+=== Get Patient Vitals Sign
+Used to fetch Patient Vitals Sign by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-vitals-sign-controller-test/get-patient-vitals-sign/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-vitals-sign-controller-test/get-patient-vitals-sign/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-vitals-sign-controller-test/get-patient-vitals-sign/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-vitals-sign-controller-test/get-patient-vitals-sign/path-parameters.adoc[]
+
+
+=== Delete Patient Vitals Sign
+Used to delete Patient Vitals Sign by ID
+
+==== Sample Curl Request
+include::{snippets}/patient-vitals-sign-controller-test/deleted-patient-vitals-sign/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/patient-vitals-sign-controller-test/deleted-patient-vitals-sign/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/patient-vitals-sign-controller-test/deleted-patient-vitals-sign/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/patient-vitals-sign-controller-test/deleted-patient-vitals-sign/path-parameters.adoc[]
+
+
+=== Create Treatment Team
+Used to create Treatment Team
+
+==== Sample Curl Request
+include::{snippets}/treatment-team-controller-test/create-treatment-team/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-team-controller-test/create-treatment-team/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-team-controller-test/create-treatment-team/http-response.adoc[]
+==== Request Fields
+include::{snippets}/treatment-team-controller-test/create-treatment-team/request-fields.adoc[]
+
+=== Update Treatment Team
+Used to update Treatment Team
+
+==== Sample Curl Request
+include::{snippets}/treatment-team-controller-test/update-treatment-team/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-team-controller-test/update-treatment-team/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-team-controller-test/update-treatment-team/http-response.adoc[]
+==== Request Fields
+include::{snippets}/treatment-team-controller-test/update-treatment-team/request-fields.adoc[]
+==== Path Parameters
+include::{snippets}/treatment-team-controller-test/update-treatment-team/path-parameters.adoc[]
+
+
+=== List Treatment Teams
+Used to fetch Treatment Teams by patientTrackerId
+
+==== Sample Curl Request
+include::{snippets}/treatment-team-controller-test/list-treatment-teams/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-team-controller-test/list-treatment-teams/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-team-controller-test/list-treatment-teams/http-response.adoc[]
+
+
+=== Get Treatment Team
+Used to fetch Treatment Team by ID
+
+==== Sample Curl Request
+include::{snippets}/treatment-team-controller-test/get-treatment-team/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-team-controller-test/get-treatment-team/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-team-controller-test/get-treatment-team/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/treatment-team-controller-test/get-treatment-team/path-parameters.adoc[]
+
+
+=== Delete Treatment Team
+Used to delete Treatment Team by ID
+
+==== Sample Curl Request
+include::{snippets}/treatment-team-controller-test/delete-patient-tracker/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/treatment-team-controller-test/delete-patient-tracker/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/treatment-team-controller-test/delete-patient-tracker/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/treatment-team-controller-test/delete-patient-tracker/path-parameters.adoc[]
+

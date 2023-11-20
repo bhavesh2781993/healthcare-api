@@ -1,0 +1,48 @@
+=== Create Workflow
+Used to create Workflow
+
+==== Sample Curl Request
+include::{snippets}/workflow-controller-test/create-workflow/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/workflow-controller-test/create-workflow/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/workflow-controller-test/create-workflow/http-response.adoc[]
+==== Request Fields
+include::{snippets}/workflow-controller-test/create-workflow/request-fields.adoc[]
+
+
+=== Get Workflow
+Used to fetch Workflow by ID
+
+==== Sample Curl Request
+include::{snippets}/workflow-controller-test/get-workflow/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/workflow-controller-test/get-workflow/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/workflow-controller-test/get-workflow/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/workflow-controller-test/get-workflow/path-parameters.adoc[]
+
+
+=== List Workflows
+Used to fetch Workflows
+
+==== Sample Curl Request
+include::{snippets}/workflow-controller-test/list-workflows/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/workflow-controller-test/list-workflows/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/workflow-controller-test/list-workflows/http-response.adoc[]
+
+
+=== Delete Workflow
+Used to delete Workflow by workflowId
+
+==== Sample Curl Request
+include::{snippets}/workflow-controller-test/delete-workflow/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/workflow-controller-test/delete-workflow/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/workflow-controller-test/delete-workflow/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/workflow-controller-test/delete-workflow/path-parameters.adoc[]

@@ -1,0 +1,32 @@
+# Database Connection
+spring.datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}?prepareThreshold=0 # Disable prepared stmts: https://stackoverflow.com/questions/7611926/postgres-error-prepared-statement-s-1-already-exists
+  username: ${DB_USERNAME}
+  password: ${DB_PASSWORD}
+
+# Flyway Migration
+spring.flyway:
+  enabled: true
+  locations: classpath:db/migration/{vendor}
+
+# Server Data Compression
+server:
+  compression:
+    enabled: true
+    mime-types: application/json,application/hal+json,text/plain,text/html
+
+# Health Check
+management.endpoints.web:
+  base-path: /internal
+  exposure:
+    include: health,prometheus
+
+management.endpoint.health:
+  probes:
+    enabled: true
+
+# Logging
+logging:
+  level:
+    com.test.api: TRACE

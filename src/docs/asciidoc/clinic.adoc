@@ -1,0 +1,334 @@
+=== Create Clinic
+Used to create clinic
+
+==== Sample Curl Request
+include::{snippets}/clinic-controller-test/create-clinic/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-controller-test/create-clinic/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-controller-test/create-clinic/http-response.adoc[]
+==== Request Fields
+include::{snippets}/clinic-controller-test/create-clinic/request-fields.adoc[]
+
+
+=== List Clinics
+Used to fetch clinics
+
+==== Sample Curl Request
+include::{snippets}/clinic-controller-test/list-clinics/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-controller-test/list-clinics/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-controller-test/list-clinics/http-response.adoc[]
+==== Query Parameters
+include::{snippets}/clinic-controller-test/list-clinics/query-parameters.adoc[]
+
+
+=== Get Clinic
+Used to fetch clinic by ID
+
+==== Sample Curl Request
+include::{snippets}/clinic-controller-test/get-clinic/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-controller-test/get-clinic/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-controller-test/get-clinic/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-controller-test/get-clinic/path-parameters.adoc[]
+
+
+=== Delete Clinic
+Used to delete clinic by ID
+
+==== Sample Curl Request
+include::{snippets}/clinic-controller-test/delete-clinic/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-controller-test/delete-clinic/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-controller-test/delete-clinic/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-controller-test/delete-clinic/path-parameters.adoc[]
+
+=== Create Clinic Location
+Used to create Clinic Location
+
+==== Sample Curl Request
+include::{snippets}/clinic-location-controller-test/create-clinic-location/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-location-controller-test/create-clinic-location/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-location-controller-test/create-clinic-location/http-response.adoc[]
+==== Request Headers
+include::{snippets}/clinic-location-controller-test/create-clinic-location/request-headers.adoc[]
+==== Request Fields
+include::{snippets}/clinic-location-controller-test/create-clinic-location/request-fields.adoc[]
+
+
+=== Get Clinic Location
+Used to fetch Clinic Location by ID
+
+==== Sample Curl Request
+include::{snippets}/clinic-location-controller-test/get-clinic-location/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-location-controller-test/get-clinic-location/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-location-controller-test/get-clinic-location/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-location-controller-test/get-clinic-location/path-parameters.adoc[]
+
+
+=== List Clinic Locations
+Used to fetch Clinic Locations by clinicId
+
+==== Sample Curl Request
+include::{snippets}/clinic-location-controller-test/list-clinic-locations/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-location-controller-test/list-clinic-locations/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-location-controller-test/list-clinic-locations/http-response.adoc[]
+==== Request Headers
+include::{snippets}/clinic-location-controller-test/list-clinic-locations/request-headers.adoc[]
+
+
+=== Delete Clinic Location
+Used to delete Clinic Location by clinicLocationId
+
+==== Sample Curl Request
+include::{snippets}/clinic-location-controller-test/delete-clinic-location/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-location-controller-test/delete-clinic-location/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-location-controller-test/delete-clinic-location/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-location-controller-test/delete-clinic-location/path-parameters.adoc[]
+
+
+=== Create Clinic Department
+Used to create Clinic Department
+
+==== Sample Curl Request
+include::{snippets}/clinic-department-controller-test/create-clinic-department/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-department-controller-test/create-clinic-department/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-department-controller-test/create-clinic-department/http-response.adoc[]
+==== Request Fields
+include::{snippets}/clinic-department-controller-test/create-clinic-department/request-fields.adoc[]
+
+
+=== Get Clinic Department
+Used to fetch Clinic Department by ID
+
+==== Sample Curl Request
+include::{snippets}/clinic-department-controller-test/get-clinic-department/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-department-controller-test/get-clinic-department/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-department-controller-test/get-clinic-department/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-department-controller-test/get-clinic-department/path-parameters.adoc[]
+
+
+=== List Clinic Departments
+Used to fetch Clinic Departments by clinicId
+
+==== Sample Curl Request
+include::{snippets}/clinic-department-controller-test/list-clinic-departments/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-department-controller-test/list-clinic-departments/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-department-controller-test/list-clinic-departments/http-response.adoc[]
+==== Request Headers
+include::{snippets}/clinic-department-controller-test/list-clinic-departments/request-headers.adoc[]
+
+
+=== Delete Clinic Department
+Used to delete Clinic Department by clinicDepartmentId
+
+==== Sample Curl Request
+include::{snippets}/clinic-department-controller-test/delete-clinic-department/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-department-controller-test/delete-clinic-department/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-department-controller-test/delete-clinic-department/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-department-controller-test/delete-clinic-department/path-parameters.adoc[]
+
+=== Create Clinic User
+Used to create Clinic User
+
+==== Sample Curl Request
+include::{snippets}/clinic-user-controller-test/create-clinic-user/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-user-controller-test/create-clinic-user/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-user-controller-test/create-clinic-user/http-response.adoc[]
+==== Request Fields
+include::{snippets}/clinic-user-controller-test/create-clinic-user/request-fields.adoc[]
+
+
+=== Get Clinic User
+Used to fetch Clinic User by ID
+
+==== Sample Curl Request
+include::{snippets}/clinic-user-controller-test/get-clinic-user/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-user-controller-test/get-clinic-user/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-user-controller-test/get-clinic-user/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-user-controller-test/get-clinic-user/path-parameters.adoc[]
+
+
+=== List Clinic Users
+Used to fetch Clinic Users by clinicId
+
+==== Sample Curl Request
+include::{snippets}/clinic-user-controller-test/list-clinic-users/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-user-controller-test/list-clinic-users/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-user-controller-test/list-clinic-users/http-response.adoc[]
+==== Request Headers
+include::{snippets}/clinic-user-controller-test/list-clinic-users/request-headers.adoc[]
+
+
+=== Delete Clinic User
+Used to delete Clinic User by clinicUserId
+
+==== Sample Curl Request
+include::{snippets}/clinic-user-controller-test/delete-clinic-user/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-user-controller-test/delete-clinic-user/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-user-controller-test/delete-clinic-user/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-user-controller-test/delete-clinic-user/path-parameters.adoc[]
+
+
+=== Update Clinic User
+Used to update Clinic User By ClinicUserId
+
+==== Sample Curl Request
+include::{snippets}/clinic-user-controller-test/update-clinic-user/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-user-controller-test/update-clinic-user/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-user-controller-test/update-clinic-user/http-response.adoc[]
+==== Request Fields
+include::{snippets}/clinic-user-controller-test/update-clinic-user/request-fields.adoc[]
+
+
+=== Create Clinic User Task
+Used to create Clinic User Task
+
+==== Sample Curl Request
+include::{snippets}/clinic-user-task-controller-test/create-clinic-user-task/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-user-task-controller-test/create-clinic-user-task/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-user-task-controller-test/create-clinic-user-task/http-response.adoc[]
+==== Request Fields
+include::{snippets}/clinic-user-task-controller-test/create-clinic-user-task/request-fields.adoc[]
+
+
+=== Get Clinic User Task
+Used to fetch Clinic User Task by ID
+
+==== Sample Curl Request
+include::{snippets}/clinic-user-task-controller-test/get-clinic-user-task/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-user-task-controller-test/get-clinic-user-task/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-user-task-controller-test/get-clinic-user-task/http-response.adoc[]
+
+
+=== List Clinic Users Tasks
+Used to fetch Clinic Users Task by clinicId
+
+==== Sample Curl Request
+include::{snippets}/clinic-user-task-controller-test/list-clinic-user-tasks/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-user-task-controller-test/list-clinic-user-tasks/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-user-task-controller-test/list-clinic-user-tasks/http-response.adoc[]
+==== Request Headers
+include::{snippets}/clinic-user-task-controller-test/list-clinic-user-tasks/query-parameters.adoc[]
+
+
+=== Update Clinic User Task
+Used to update Clinic User Task By ClinicUserTaskId
+
+==== Sample Curl Request
+include::{snippets}/clinic-user-task-controller-test/update-clinic-user-task/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-user-task-controller-test/update-clinic-user-task/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-user-task-controller-test/update-clinic-user-task/http-response.adoc[]
+==== Request Fields
+include::{snippets}/clinic-user-task-controller-test/update-clinic-user-task/request-fields.adoc[]
+
+
+=== Delete Clinic User Task
+Used to delete Clinic User Task by clinicUserTaskId
+
+==== Sample Curl Request
+include::{snippets}/clinic-user-task-controller-test/delete-clinic-user-task/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-user-task-controller-test/delete-clinic-user-task/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-user-task-controller-test/delete-clinic-user-task/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-user-task-controller-test/delete-clinic-user-task/path-parameters.adoc[]
+
+
+=== Create Clinic-Workflow
+Used to create Clinic-Workflow
+
+==== Sample Curl Request
+include::{snippets}/clinic-workflow-controller-test/create-clinic-workflow/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-workflow-controller-test/create-clinic-workflow/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-workflow-controller-test/create-clinic-workflow/http-response.adoc[]
+==== Request Fields
+include::{snippets}/clinic-workflow-controller-test/create-clinic-workflow/request-fields.adoc[]
+
+
+=== Get Clinic-Workflow
+Used to fetch Clinic-Workflow by ID
+
+==== Sample Curl Request
+include::{snippets}/clinic-workflow-controller-test/get-clinic-workflow/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-workflow-controller-test/get-clinic-workflow/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-workflow-controller-test/get-clinic-workflow/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-workflow-controller-test/get-clinic-workflow/path-parameters.adoc[]
+
+
+=== List Clinic-Workflows
+Used to fetch Clinic-Workflows
+
+==== Sample Curl Request
+include::{snippets}/clinic-workflow-controller-test/list-clinic-workflows/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-workflow-controller-test/list-clinic-workflows/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-workflow-controller-test/list-clinic-workflows/http-response.adoc[]
+
+
+=== Delete Clinic-Workflow
+Used to delete Clinic-Workflow by clinicWorkflowId
+
+==== Sample Curl Request
+include::{snippets}/clinic-workflow-controller-test/delete-clinic-workflow/curl-request.adoc[]
+==== Sample Http Request
+include::{snippets}/clinic-workflow-controller-test/delete-clinic-workflow/http-request.adoc[]
+==== Sample Http Response
+include::{snippets}/clinic-workflow-controller-test/delete-clinic-workflow/http-response.adoc[]
+==== Path Parameters
+include::{snippets}/clinic-workflow-controller-test/delete-clinic-workflow/path-parameters.adoc[]
+
+

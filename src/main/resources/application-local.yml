@@ -1,0 +1,69 @@
+# Database Connection
+spring.datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/healthcaredb?prepareThreshold=0
+  username: healthcaredb
+  password: admin
+
+#used to generate database script in local which helps us to create flyway migration scripts.
+spring.jpa:
+#  generate-ddl: true
+#  hibernate.ddl-auto: create
+  properties:
+    #used to generate database script in local which helps us to create flyway migration scripts.
+#    jakarta.persistence.schema-generation:
+#      create-source: metadata
+#      scripts:
+#        action: create
+#        create-target: update-script.sql
+    hibernate:
+      show_sql: true
+      format_sql: true
+
+# Flyway Migration
+spring.flyway:
+  enabled: false
+
+# Email Configuration
+spring.mail:
+  host: smtp.mailtrap.io
+  port: 2525
+  username: username
+  password: password
+  properties:
+    mail.smtp:
+      auth: true
+      connectiontimeout: 5000
+      timeout: 5000
+      writetimeout: 5000
+      starttls:
+        enabled: true
+        required: true
+
+# Custom Email Configurations
+email:
+  max-retry-count: 3
+  provider:
+    java-mail:
+      from: test@gmail.com
+
+# CORS Allowed Origins
+cors:
+  # '*' Represents all, Should be used with caution. Use it for local development only.
+  origins: '*'
+
+# Multipart File Configuration
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 4MB
+      max-request-size: 4MB
+
+#Keycloak Configuration
+keycloak:
+  auth-server-url: http://localhost:9191
+  ssl-required: none
+  enabled: true
+  admin-cli:
+    client-secret: ySKd2dN2TuaSEV5zzlbw3atwjrODjiVt
